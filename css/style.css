@@ -10,7 +10,44 @@ body {
 	font-weight: 300;
 }
 
-header,
+header {
+   display: block;
+   text-align: center;
+   margin: 0 0 1em 0;	
+}
+
+header > p {
+			display: block;
+			font-size: 1.5em;
+			margin: 1em 0 2em 0;
+			line-height: 1.5em;
+			text-align: inherit;
+		}
+
+		#header h1 {
+			color: #fff;
+			font-size: 3em;
+			line-height: 1em;
+		}
+
+			#header h1 a {
+				color: inherit;
+			}
+	#header {
+		position: relative;
+		background-image: url("../../images/header.jpg");
+		background-size: cover;
+		background-position: center center;
+		color: #fff;
+		text-align: center;
+		padding: 7.5em 0 2em 0;
+	}
+
+#header header > p {
+				font-size: 1.25em;
+				margin: 0;
+			}
+
 nav,
 footer {
   background-color: #eee;
