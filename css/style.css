@@ -137,12 +137,13 @@ a:hover {
 	display: inline;
 }
 
-figcaption {
+#figcaption {
 	color: #76150f;
 	font-size: 1rem;
 	line-height: 1.4;
 	text-align: left;
 	width: 360px;
+	margin-top: 0;
 	margin-bottom: 50px;
 }
 
