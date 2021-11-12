@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
 /* Body */
 
 body {
+	font-family: "Source Sans Pro", "Tahoma", "Courier New", serif;
 	font-size: 15pt;
 	line-height: 1.85em;
-	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 300;
 	background: rgb(240, 240, 240, 1);
 	display: grid;
@@ -81,6 +82,7 @@ hr {
 }
 
 h1 {
+	font-family: "Open Sans", "Tahoma", "Courier New", serif;
 	color: #e7473c;
 	font-size: 5rem;
 	line-height: normal;
@@ -99,7 +101,6 @@ h2 {
 }
 
 h3 {
-	font-family: Ring side Regular SSm-Book, Blank, Helvetica Neue, Helvetica,sans-serif;
 	font-size: 2rem;
 	color: #76150f;
 	padding: 1em 0 1em;
@@ -117,7 +118,8 @@ h4 {
 	margin: 0;
 }
 
-a {
+a,
+a:link a:active {
 	color: #76150f;
 	text-decoration: none;
 }
@@ -169,12 +171,18 @@ a:hover {
 	margin-top: 5px;
 }
 
-.sourcelink {
+a.sourcelink:visited,
+a.sourcelink:active,
+a.sourcelink:link {
 	color: #808080;
 }
 
+a.sourcelink:hover {
+	color: #76150f;
+	text-decoration: underline;
+}
+
 #area {
-	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
 	width: 100%;
 	margin-bottom: 60px;
@@ -208,7 +216,7 @@ a:hover {
 
 ul>li {
 	margin: 0;
-  padding: 0;
+	padding: 0;
 	list-style-type: square;
 }
 
@@ -218,11 +226,4 @@ footer {
 	line-height: 1.4;
 	margin-top: 2em;
 	text-align: right;
-}
-
-#footerlink {
-	color: #808080;
-	font-size: 1rem;
-	line-height: 1.4;
-	margin-top: 2em;
 }
