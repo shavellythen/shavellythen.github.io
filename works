@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shavelly Then | Works | Personal Portafolio</title>
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="main-nav .nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div class="navigation-toggle"></div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li>
+                <a href="../index.html">About</a>
+              </li>
+              <li>
+                <a href="../skills/index.html">Skills</a>
+              </li>
+              <li class="active">
+                <a href="#works">Works</a>
+              </li>
+              <li>
+                <a href="../testimonies/index.html">Testimonies</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </nav><!-- END Navigation -->
+  <!-- Heading -->
+  <h2 class="title">Works</h2>
+  <h2 class="intro-heading">Portafolio</h2><!-- END Heading -->
+  <!-- Works -->
+  <div class="gallery">
+    <figure class="img-container gallery__item gallery__item--1">
+      <img src="../images/works/company-flyers.jpeg" class="gallery__img works-image" alt="Image 1">
+      <div class="middle">
+        <div class="text">
+          Flyers
+        </div>
+      </div>
+    </figure>
+    <figure class="img-container gallery__item gallery__item--2">
+      <img src="../images/works/logo.jpeg" class="gallery__img works-image" alt="Image 2">
+      <div class="middle">
+        <div class="text">
+          Branding
+        </div>
+      </div>
+    </figure>
+    <figure class="img-container gallery__item gallery__item--3">
+      <img src="../images/works/stationary.jpeg" class="gallery__img works-image" alt="Image 3">
+      <div class="middle">
+        <div class="text">
+          Stationary
+        </div>
+      </div>
+    </figure>
+    <figure class="img-container gallery__item gallery__item--4">
+      <img src="../images/works/web-design.jpeg" class="gallery__img works-image" alt="Image 4">
+      <div class="middle">
+        <div class="text">
+          Web Design
+        </div>
+      </div>
+    </figure>
+    <figure class="img-container gallery__item gallery__item--5">
+      <img src="../images/works/business-cards.jpeg" class="gallery__img works-image" alt="Image 5">
+      <div class="middle">
+        <div class="text">
+          Business Cards
+        </div>
+      </div>
+    </figure>
+    <figure class="img-container gallery__item gallery__item--6">
+      <img src="../images/works/digital-designs.jpg" class="gallery__img works-image" alt="Image 6">
+      <div class="middle">
+        <div class="text">
+          Digital Graphics
+        </div>
+      </div>
+    </figure>
+  </div><!-- END Works -->
+</body>
+</html>
