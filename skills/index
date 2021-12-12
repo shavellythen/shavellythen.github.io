@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shavelly Then | Skills | Personal Portafolio</title>
+    <link href="../css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="main-nav .nav">
+        <div class="container">
+          <header class="group top-nav">
+            <div class="navigation-toggle"></div>
+            <nav id="navbar-1" class="navbar item-nav">
+              <ul>
+                <li>
+                  <a href="../index.html">About</a>
+                </li>
+                <li class="active">
+                  <a href="#skills">Skills</a>
+                </li>
+                <li>
+                  <a href="../works/index.html">Works</a>
+                </li>
+                <li>
+                  <a href="../testimonies/index.html">Testimonies</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
+        </div>
+      </div>
+    </nav>
+    <!-- END Navigation -->
+    <!-- Heading -->
+    <h2 class="title">SKILLS</h2>
+    <h2 class="intro-heading">Technical Skills</h2>
+    <!-- END Heading -->
+    <!-- Skills -->
+    <main class="skills-body">
+      <div class="col-lf-1-skills">
+        <div class="skill-margin">
+          <h3>Graphic Design</h3>
+          <ul class="ul-skills">
+            <li class="ul-li-skills">UI Design</li>
+            <li class="ul-li-skills">Website Design</li>
+            <li class="ul-li-skills">Brading & Visual Identity</li>
+            <li class="ul-li-skills">Print Design</li>
+          </ul>
+        </div>
+        <h3>Front End Development</h3>
+        <ul class="ul-skills">
+          <li class="ul-li-skills">HTML / CSS</li>
+          <li class="ul-li-skills">Cascade</li>
+          <li class="ul-li-skills">WordPress</li>
+          <li class="ul-li-skills">Jomla</li>
+        </ul>
+      </div>
+      <div class="col-md-push-1-skills">
+        <div class="skill-margin">
+          <h3>Illustration</h3>
+          <ul class="ul-skills">
+            <li class="ul-li-skills">Infographics</li>
+            <li class="ul-li-skills">Motion Graphics</li>
+            <li class="ul-li-skills">Animation</li>
+            <li class="ul-li-skills">Visual Effects</li>
+          </ul>
+        </div>
+        <h3>Marketing</h3>
+        <ul class="ul-skills">
+          <li class="ul-li-skills">Google Analytics</li>
+          <li class="ul-li-skills">Sales Marketing</li>
+          <li class="ul-li-skills">Social Media Management</li>
+          <li class="ul-li-skills">eCommerce</li>
+        </ul>
+      </div>
+    </main>
+    <!-- END Skills -->
+  </body>
+</html>
