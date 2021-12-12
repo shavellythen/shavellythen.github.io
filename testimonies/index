@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Shavelly Then | Testimonies | Portafolio</title>
+  <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="main-nav .nav">
+      <div class="container">
+        <header class="group top-nav">
+          <div class="navigation-toggle"></div>
+          <nav id="navbar-1" class="navbar item-nav">
+            <ul>
+              <li>
+                <a href="../index.html">About</a>
+              </li>
+              <li>
+                <a href="../skills/index.html">Skills</a>
+              </li>
+              <li>
+                <a href="../works/index.html">Works</a>
+              </li>
+              <li class="active">
+                <a href="#testimonies">Testimonies</a>
+              </li>
+            </ul>
+          </nav>
+        </header>
+      </div>
+    </div>
+  </nav><!-- END Navigation -->
+  <!-- Heading -->
+  <h2 class="title-long">Reviews</h2>
+  <h2 class="intro-heading">Testimonies</h2><!-- END Heading -->
+  <!-- Testimonies -->
+  <main class="testimonies">
+    <div class="blockquote">
+      <p><span class="punctuation">"</span> Excellent, working with Shavelly was great. Thanks to her knowledge and determination our website looks great and functions really good. I recommend anyone that is looking for a custom website to give her a call. <span class="punctuation">"</span></p>
+      <p><span class="punctuation">—</span> Liam Jenkins</p>
+      <hr>
+      <p><span class="punctuation">"</span> Overall very pleased with Shavelly and her friendliness with us. She did everything we asked in a timely matter. I will definitely be recommending her to other companies. Thanks for such good work. <span class="punctuation">"</span></p>
+      <p><span class="punctuation">—</span> Luis Michel</p>
+      <hr>
+      <p><span class="punctuation">"</span> I want to thank Shavelly for doing a great job creating my website. I personally endorse her to anyone seeking assistance with creating a website. I definitely will use her services again with my next project :) Again, thanks for all your help making my website come to life! <span class="punctuation">"</span></p>
+      <p><span class="punctuation">—</span> Nastasia Boulos</p>
+    </div>
+  </main><!-- END Testimonies -->
+</body>
+</html>
